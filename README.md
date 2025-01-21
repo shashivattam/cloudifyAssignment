@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+1) Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React application that implements a table with dynamic rows. The table contains two columns:
 
-## Available Scripts
+Single Select Dropdown: A dropdown to select an option from a predefined list. Once an item is selected, it will be disabled for subsequent rows.
+Multi Select Dropdown: A dropdown allowing users to select multiple options from a list. Users can also add new options to this list dynamically.
+Additionally, a button is provided at the bottom of the table to add new rows. Each new row contains both dropdowns for the user to make selections.
 
-In the project directory, you can run:
+2)Features
 
-### `npm start`
+Column 1 (Single Select Dropdown):
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Allows the user to select one option from a list.
+Once selected, the option becomes disabled in other rows.
+Column 2 (Multi Select Dropdown):
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Allows the user to select multiple options.
+Includes an input field to dynamically add new options to the dropdown list.
+Add New Row Button:
 
-### `npm test`
+Adds a new row to the table with empty dropdowns, allowing users to make new selections.
+Technologies Used
+React
+JavaScript (ES6+)
+CSS (for styling)
+Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Clone the repository to your local machine: 
+git clone 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+File Structure 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+/react-dropdown-table
+│
+├── /src
+│   ├── /App.js         # Main React component
+│   ├── /App.css        # CSS file for styling
+│   └── /index.js       # Entry point for React
+│
+└── /public
+    └── index.html      # HTML template for the app
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Components:
+App.js: Contains the main logic for managing rows, dropdowns, and state updates.
+App.css: Contains the styling for the table, dropdowns, buttons, and layout.
+index.js: Renders the App component in the browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+githubUrl : 
